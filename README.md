@@ -1,7 +1,7 @@
 ### Part 1 - Obtaining Data and Creating the Model
 Here is a [link](https://rj-bartlett.github.io/Project1Cleaning/) to the code that was used to get the data from Zillow. 
 
-After the data was collected and organized, here is the code that I used to create the model and subsequent operations. A link to the write up and plot can be found [here]().
+After the data was collected and organized, here is the code that I used to create the model and subsequent operations.
 ```python
 import pandas as pd
 import numpy as np
@@ -107,3 +107,7 @@ pcp(homes_df2.drop(columns = 'Scaled Price'),
     colormap = 'cool')
 plt.show()
 ```
+
+
+### Part 2 - Write up
+ A link to the write up and plot can be found [here](https://rj-bartlett.github.io/Project1writeup/).
